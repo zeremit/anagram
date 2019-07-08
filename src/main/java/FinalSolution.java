@@ -17,7 +17,7 @@ public class FinalSolution {
         } else {
             List<String> result = new ArrayList<>();
             for (String world : dictionary) {
-                if (fastCheck(world, searchAnagramsFor) && isAnagram(world, searchAnagramsFor)) {
+                if (fastCheck(world, resultWorld) && isAnagram(world, resultWorld)) {
                     result.add(world);
                 }
 
